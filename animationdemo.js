@@ -10,6 +10,10 @@ if (Meteor.isClient) {
         console.log("You pressed the button");
     }
   });
+	
+	Template.hello.exampleArray = function(){
+		return ['',''];
+	};
 }
 
 if (Meteor.isServer) {

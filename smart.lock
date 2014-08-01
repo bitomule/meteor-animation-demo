@@ -1,0 +1,25 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "animation-helper-velocity": {}
+    },
+    "packages": {
+      "animation-helper-velocity": {
+        "git": "https://github.com/frozeman/meteor-animation-helper-velocity.git",
+        "tag": "v0.0.7",
+        "commit": "7ca3391de481c9af1d9e3bc3e0d819bc767b0946"
+      },
+      "velocityjs": {
+        "git": "https://github.com/Sewdn/meteor-velocityjs.git",
+        "tag": "v0.8.0",
+        "commit": "5e96099e2cf8f99dbc7ed61225e96b0ba833ff08"
+      },
+      "underscore-string-latest": {
+        "git": "https://github.com/TimHeckel/meteor-underscore-string.git",
+        "tag": "v2.3.3",
+        "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
+      }
+    }
+  }
+}
