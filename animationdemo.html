@@ -8,9 +8,8 @@
 
 <template name="hello">
 	{{#each exampleArray}}
-		1.
 		{{#AnimateWithVelocity}}
-			<div data-animate data-property="opacity" data-duration="500" data-from-value="0" data-to-value="1">HELLO</div>
+			<div data-animate data-property="height" data-duration="500" data-from-value="0" data-to-value="20" data-easing-in="easeInOutBounce" data-easing-out="easeInBounce">HOLA</div>
 		{{/AnimateWithVelocity}}
 	{{/each}}
 </template>
